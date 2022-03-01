@@ -1,0 +1,21 @@
+/* Searchbar */
+.searchbar-container {
+	align-self: center;
+	position: absolute;
+}
+
+.searchInput {
+	width: 35vw;
+	height: 5vh;
+	border-bottom: solid #ffffff 0.2em;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	align-self: center;
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+}
+
+.searchInput::placeholder {
+	color: rgb(255, 255, 255, 0.7);
+}
